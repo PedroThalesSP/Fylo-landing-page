@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: red;
+}
+
+header{
+    background-color: white;
+}
+
+.conteiner-one-main{
+    background-color: white;
+}
+
+.conteiner-two-main{
+background-image: url(../images/bg-curve-desktop.svg) ;
+}
+
+.conteiner-three-main{
+    background-color:#575989 ;
+}
+
+footer{
+    background-color:#07043B ;
+}
