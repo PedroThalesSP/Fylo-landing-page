@@ -6,16 +6,22 @@
     list-style: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
     background-color:#f76acc;
 }
 
+
+/* top-part */
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
     align-items: center;
-    background-color: rgb(17, 0, 255);
+    background-color: rgb(255, 255, 255);
     max-width: 1440px;
     padding: 60px 50px;
     margin:0px auto;
@@ -27,31 +33,86 @@ nav{
 
 .list-one{
     display: flex;
-    padding: 10px;
-    gap: 30px;
-    background-color: azure;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #727084;
+    gap: 25px;
 }
+
+/* mid-part */
 
 main{
     max-width: 1440px;
     margin: 0px auto;
+    
 
+}
+
+h3{
+    color: #090239;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+}   
+
+p{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #090239
 }
 
 .conteiner-one-main{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
     background-color: white;
+    padding: 10px 40px 200px 40px;
+
 }
 
-.conteiner-two-main{
+.introduction-text-one{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin:10px;
+    padding: 10px;
+}
+
+.image-one-main img {
+    width: 100%;
+    height: 100% ;
+    margin:10px;
+    padding: 10px;
+
+}
+
+.form input{
+    height: 35px;
+    width: 230px;
+    font-size: 11px;
+}
+
+.form button{
+    color: white;
+    background-color :#2F65F9 ;
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+/* .conteiner-two-main{
 background-image: url(../images/bg-curve-desktop.svg) ;
 }
 
 .conteiner-three-main{
     background-color:#575989 ;
-}
+} */
 
-footer{
+
+/* inferior-part */
+/* footer{
     background-color:#07043B ;
     max-width: 1440px;
     margin: 0px auto;
-}
+} */
