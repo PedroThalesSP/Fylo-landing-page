@@ -11,7 +11,7 @@
 
 
 body{
-    background-color:#9a88c4;
+    background-color:#aeeee9;
 }
 
 /* top-part */
@@ -124,6 +124,10 @@ p{
     padding: 0px 40px 0px 40px; 
 }
 
+.conteiner-two-main p{
+    font-size: 12px;
+}
+
 .introduction-text-two{
     display: flex;
     flex-direction: column;
@@ -134,7 +138,7 @@ p{
 
 .introduction-text-two a{
     color: #2b948d;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .link{
@@ -168,7 +172,7 @@ p{
 }
 
 .talk p{
-    font-size: 12px;
+    font-size: 11px;
     
 }
 
@@ -197,11 +201,69 @@ p{
     
 }
 
-
-
-/*.conteiner-three-main{
+.conteiner-three-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px;
+    max-height: 100%;  
     background-color:#575989 ;
-} */
+} 
+
+.introduction-text-three p {
+    color: white;
+    font-size: 11px;
+}
+
+.introduction-text-three h3{
+    color: white;
+}
+
+.introduction-text-three div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    width: 450px;
+}
+
+.form-two{
+    display: flex;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.form-two div{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 15px
+}
+
+.button-bot{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+.form-two button{
+    max-width: 80%;
+    padding: 10px 5px;
+    background-color: #3065F9;
+    border: none;
+    color: white;
+    font-size: 11px;
+}
+
+
 
 
 /* inferior-part */
