@@ -99,18 +99,20 @@ p{
 
 .form input{
     height: 35px;
-    width: 230px;
-    font-size: 11px;
+    width: 260px;
+    font-size: 16px;
+    align-items: center;
 }
 
 .form button{
     color: white;
     background-color :#2F65F9 ;
-    height: 35px;
-    width: 200px;
+    height: 34px;
+    width: 170px;
     border: none;
     border-radius: 3px;
     font-size: 11px;
+    transition: transform 200ms ease-in-out;
 }
 
 /* conteiner-two */
@@ -208,7 +210,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 10px 40px;
     max-height: 100%;  
     background-color:#575989 ;
 } 
@@ -253,6 +255,7 @@ p{
     height: 40px;
     padding: 0px 10px;
     font-size: 10px;
+    
 }
 
 .form-two button{
@@ -262,50 +265,70 @@ p{
     border: none;
     color: white;
     font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    transition: transform 200ms ease-in-out;
 }
 
 /* inferior-part */
 footer{
-    display: flex;
-    justify-content: center;
     background-color:#07043B ;
     max-width: 1440px;
     margin: 0px auto;
     color: white;
-    height: 100%;
+    max-height: 100%;
     font-size: 15px;
     padding: 0px 40px;
 }
 
  footer section{
     display: flex;
-    margin: 10px 0px;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: end;
+    flex-wrap: wrap;
     max-width: 100%;
-    height: 300px;
-    gap: 140px;
-
+    max-height: 100%;
+    padding: 30px 0px;
 } 
+
+.logo-bot img{
+    filter: brightness(0) invert(1);
+    width: 100%;
+}
+
+.table td{
+    padding: 2px;
+    font-family: "Open Sans", sans-serif;
+}
 
 .contact{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 30px;
+    gap: 20px;
 }
 
 .links ul{
     width: 70px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
 }
 
-.social-midia img{
-    max-width: 10%;
-}
-
-.social-midia {
+.social-midia{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 8px;
+    gap: 15px;
+}
+
+.social-image{
+    display: flex;
+    margin: 5px;
+}
+
+.social-midia img{
+    width: 35px;
+}
+
+button:hover{
+    transform: scale(1.03);
 }
