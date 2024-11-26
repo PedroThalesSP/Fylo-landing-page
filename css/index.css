@@ -338,6 +338,20 @@ footer{
     width: 35px;
 }
 
+.attribution  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution p{
+    color: white;
+}
+
+.attribution a{
+    color: white;
+}
+
 button:hover{
     transform: scale(1.03);
 }
