@@ -11,7 +11,7 @@
 
 
 body{
-    background-color:#aeeee9;
+    background-color:#ffffff;
 }
 
 /* top-part */
@@ -198,6 +198,7 @@ p{
     max-width: 100%;
     height: 30px;
     border-radius: 50%;
+    margin:5px
     
 }
 
@@ -263,12 +264,48 @@ p{
     font-size: 11px;
 }
 
-
-
-
 /* inferior-part */
-/* footer{
+footer{
+    display: flex;
+    justify-content: center;
     background-color:#07043B ;
     max-width: 1440px;
     margin: 0px auto;
-} */
+    color: white;
+    height: 100%;
+    font-size: 15px;
+    padding: 0px 40px;
+}
+
+ footer section{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    max-width: 100%;
+    height: 300px;
+    gap: 140px;
+
+} 
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.links ul{
+    width: 70px;
+}
+
+.social-midia img{
+    max-width: 10%;
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
