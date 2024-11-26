@@ -1,0 +1,270 @@
+@media (max-width: 800px) {
+    /* top-part */
+    header{
+        padding: 55px 30px;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    /* conteiner-one */
+
+    .conteiner-one-main{
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px;
+        margin: 7px;
+    
+    }
+
+    .introduction-text-one {
+        text-align: center;
+        margin: 1px;
+        padding: 1px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:4px
+    }
+
+    .form input{
+        height: 35px;
+        width: 300px;
+        
+    }
+    
+    .form button{
+        height: 36px;
+        width: 300px;
+    }
+
+    .image-one-main img{
+        padding: 5px;
+        margin: 0px;
+    }
+    
+    /* conteiner-two */
+   .conteiner-two-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    }
+
+    .introduction-text-two{
+        align-items: center;
+        text-align: center;
+        margin: 7px;
+        padding: 0px;
+    }
+
+    .link{
+        justify-content: center;
+    }
+
+    .declaration-box{
+        justify-content: center;
+        align-items: center;
+    }
+    /* conteiner-three */
+    .conteiner-three-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px; 
+    } 
+
+    .introduction-text-three h3{
+        text-align: center;
+    }
+
+    .introduction-text-three p  {
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        
+    }
+
+    .introduction-text-three div{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .form-two{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .form-two div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+
+    .button-bot{
+        width: 380px;
+    }
+
+    .form-two button{
+        width: 473px;
+        padding: 10px 5px;
+
+    }
+    /* inferior-part */
+    footer{
+        padding: 7px;
+    }
+
+    footer section{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start
+
+    }
+
+    .social-image{
+        display: flex;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 440px) {
+    
+    /* top-part */
+
+    header{
+        padding: 55px 10px;
+    }
+    .logo img{
+        width: 120px;
+    }
+
+    /* conteiner-one */
+    .list-one{
+        display: flex;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        gap: 25px;
+    }
+
+    .conteiner-one-main{
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px;
+        margin: 7px;
+    
+    }
+
+    .introduction-text-one {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+ 
+    .form input{
+        height: 35px;
+        width: 300px;
+        
+    }
+    
+    .form button{
+        height: 39px;
+        width: 300px;
+    }
+
+    .image-one-main img{
+        padding: 5px;
+        margin: 0px;
+    }
+    
+    /* conteiner-two */
+   .conteiner-two-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    }
+
+    .introduction-text-two{
+        align-items: center;
+        text-align: center;
+        margin: 7px;
+        padding: 0px;
+    }
+
+    .link{
+        justify-content: center;
+    }
+
+    .declaration-box{
+        justify-content: center;
+        align-items: center;
+    }
+    /* conteiner-three */
+    .conteiner-three-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px; 
+    } 
+
+    .introduction-text-three h3{
+        text-align: center;
+    }
+
+    .introduction-text-three p  {
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        
+    }
+
+    .introduction-text-three div{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .form-two div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-two button{
+        width: 373px;
+        padding: 10px 5px;
+
+    }
+    /* inferior-part */
+    footer{
+        padding: 7px;
+    }
+
+    footer section{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start
+
+    }
+
+    .social-image{
+        display: flex;
+        margin: 5px;
+    }
+
+}
+
