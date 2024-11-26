@@ -30,11 +30,14 @@ nav{
     margin: 10px;
 }
 
+nav a {
+    color: #727084;
+}
+
 .list-one{
     display: flex;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
-    color: #727084;
     gap: 25px;
 }
 
@@ -107,12 +110,13 @@ p{
 .form button{
     color: white;
     background-color :#2F65F9 ;
-    height: 34px;
+    height: 39px;
     width: 170px;
     border: none;
     border-radius: 3px;
     font-size: 11px;
     transition: transform 200ms ease-in-out;
+    cursor: pointer;
 }
 
 /* conteiner-two */
@@ -267,6 +271,7 @@ p{
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
     transition: transform 200ms ease-in-out;
+    cursor: pointer;
 }
 
 /* inferior-part */
@@ -307,10 +312,11 @@ footer{
     gap: 20px;
 }
 
-.links ul{
+.links a{
     width: 70px;
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
+    color: white;
 }
 
 .social-midia{
