@@ -2,10 +2,15 @@
     
     /* top-part */
 
+    body{
+        background-color: red;
+    }
+
     header{
         flex-direction: column;
         padding: 55px 10px;
     }
+
     .logo img{
         width: 120px;
     }
@@ -22,8 +27,6 @@
         flex-wrap: wrap;
         align-items: center;
         padding: 0px;
-        margin: 7px;
-    
     }
 
     .introduction-text-one {
@@ -52,6 +55,7 @@
    .conteiner-two-main{
     display: flex;
     flex-wrap: wrap;
+    background-image: url(/images/bg-curve-mobile.svg);
     padding: 0px;
     }
 

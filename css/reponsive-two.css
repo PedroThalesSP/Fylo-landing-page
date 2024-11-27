@@ -1,8 +1,6 @@
 @media (max-width: 964px) {
     /* top-part */
-    header{
-        padding: 55px 30px;
-    }
+
 
     .logo img{
         width: 120px;
@@ -13,9 +11,7 @@
     .conteiner-one-main{
         flex-wrap: wrap;
         align-items: center;
-        padding: 0px;
-        margin: 7px;
-    
+        padding: 2px;
     }
 
     .introduction-text-one {
