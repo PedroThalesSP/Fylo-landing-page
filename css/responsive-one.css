@@ -2,10 +2,6 @@
     
     /* top-part */
 
-    body{
-        background-color: red;
-    }
-
     header{
         flex-direction: column;
         padding: 55px 10px;
