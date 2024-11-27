@@ -3,6 +3,7 @@
     /* top-part */
 
     header{
+        flex-direction: column;
         padding: 55px 10px;
     }
     .logo img{
@@ -76,7 +77,6 @@
         align-items: center;
         flex-wrap: wrap;
         padding: 0px; 
-        max-width: 100%;
     } 
 
     .introduction-text-three h3{
@@ -94,7 +94,7 @@
         display: flex;
         margin: 0px;
         padding: 0px;
-        max-width: 100%;    
+        max-width: 100%;  
 
     }
 
@@ -107,7 +107,7 @@
     }
 
     .form-two button{
-        width: 373px; 
+        /* width: 373px;  */
         padding: 10px 5px;
 
     }
@@ -120,8 +120,8 @@
         display: flex;
         gap: 25px;
         flex-direction: column;
-        justify-content: left;
-        align-items:flex-start
+        justify-content: center;
+        align-items:center;
 
     }
 

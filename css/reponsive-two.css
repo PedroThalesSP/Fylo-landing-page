@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 964px) {
     /* top-part */
     header{
         padding: 55px 30px;
@@ -79,6 +79,11 @@
         padding: 0px; 
     } 
 
+    .introduction-text-three {
+        display: flex;
+        justify-content: center;
+    }
+
     .introduction-text-three h3{
         text-align: center;
     }
@@ -109,10 +114,6 @@
         margin: 10px 0px;
     }
 
-    .button-bot{
-        width: 380px;
-    }
-
     .form-two button{
         width: 473px;
         padding: 10px 5px;
@@ -120,6 +121,7 @@
     }
     /* inferior-part */
     footer{
+        text-align: center;
         padding: 7px;
     }
 
@@ -127,8 +129,8 @@
         display: flex;
         gap: 25px;
         flex-direction: column;
-        justify-content: left;
-        align-items:flex-start
+        justify-content: center;
+        align-items:center;
 
     }
 
